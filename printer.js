@@ -6,22 +6,8 @@ async function print (path) {
         for (let i = 0; i < files.length; i++) {
             const metadata = {
                 name: `Silhouette Punk #${i}`,
-                description: `10,000 Silhouette Punks together create a single conceptual art piece on the Ethereum Blockchain.\n
-                \n
-                Silhouette Punks are conceptual art: They exist to promote thought and ask questions.\n
-                \n
-                About values, status, identity, creativity, communication, how we are different, how we are the same.\n
-                \n
-                They provide no answers. They reflect.\n
-                \n
-                This art project is not associated with the legendary Crypto Punks which they reference or Larva Labs.\n
-                \n
-                Silhouette Punks are not intended to be a vehicle for speculation. They may have no monetary value.\n
-                \n
-                They are an idea. Sold or unsold, as an artistic expression, their value is: They exist.\n
-                \n
-                We hope they add to the conversation.`,
-                image: `${'ipfs://abc/'}${i}.png`,
+                description: `10,000 Silhouette Punks together create a single conceptual art piece on the Ethereum Blockchain.\n\nSilhouette Punks are conceptual art: They exist to promote thought and ask questions.\n\nAbout values, status, identity, creativity, communication, how we are different, how we are the same.\n\nThey provide no answers. They reflect.\n\nThis art project is not associated with the legendary Crypto Punks which they reference or Larva Labs.\n\nSilhouette Punks are not intended to be a vehicle for speculation. They may have no monetary value.\n\nThey are an idea. Sold or unsold, as an artistic expression, their value is: They exist.\n\nWe hope they add to the conversation.`,
+                image: `${'ipfs://QmSzWSij7BE1zUSXaK88kwhrGXBeeGFLSpuH6H6XGm5LFV/'}${i}.png`,
                 attributes: [
                     {
                         "trait_type": "Color", 
